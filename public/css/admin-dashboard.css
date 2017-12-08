@@ -1,5 +1,6 @@
 .rata-tengah{
   text-align:center;
+  align:center;
 }
 .judul{
   font-size:35px;
@@ -7,4 +8,14 @@
 }
 .header{
   color:white;
+  font-size:23px;
+}
+.kotak{
+  width:100px;
+  height:100px;
+  background-color:white;
+  padding:25px;
+  margin-left:150px;
+  margin-top:20px;
+  font-size:40px;
 }

@@ -17,7 +17,7 @@ class CreateRelawansTable extends Migration
             $table->increments('id');
             $table->string('nama')->nullable();
             $table->string('email')->unique();
-            $table->string('hp')->nullable();
+            $table->integer('hp')->nullable();
             $table->string('alamat')->nullable();
             $table->timestamps();
         });
