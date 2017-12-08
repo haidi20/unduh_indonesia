@@ -8,7 +8,7 @@ label{
   margin-bottom:5px;
 }
 body{
-  background-color: #ecf0f1;
+  background-color: ;
 }
 .thumbnail{
   border-radius: 0px;
@@ -34,6 +34,9 @@ nav
 {
 	margin-bottom : 0;
 
+}
+#footer{
+  background-color: inherit;
 }
 
 #berita

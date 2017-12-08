@@ -128,7 +128,7 @@
 
 		<br><br>
 
-		
+
 	 <div >
 
 		 <div id="donasi_a">
@@ -154,7 +154,7 @@
 			</div>
 		</div>
 	 </div>
-	
+
 	</div>
   </section>
 
@@ -219,19 +219,20 @@
 
   <br><br><br>
 
-
-  <section style="background-color:white">
+<!-- bagian footer baru -->
+  <section style="background-color:">
 	<div class="container">
+    <hr>
 		<div class="row">
 			<div class="col-md-12 text-center">
-				&nbsp;&nbsp;&nbsp;&nbsp; <span id="hubungi_kami">Hubungi Kami</span>
+				&nbsp;&nbsp;&nbsp;&nbsp; <span style="float:left" id="hubungi_kami">Hubungi Kami</span>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-md-6">
 			<br><br>
-					<table width="100%" align="center">
+					<table id="footer" width="100%" align="center">
 						<tr>
 							<td align="center" width="30%"><img src="img/icon/phone.png"></td>
 							<td align="center" width="30%"><img src="img/icon/mail.png"></td>
@@ -248,11 +249,11 @@
 					</table>
 			</div>
 			<div class="col-md-1 center text-center visible-lg-block">
-				<center><div style="width: 0px; height: 200px; border: 1px #000 solid;"></div><center>
+				<!-- <center><div style="width: 0px; height: 200px; border: 1px #000 solid;"></div><center> -->
 			</div>
 			<div class="col-md-5">
 					<br><br>
-					<table width="100%" align="center">
+					<table id="footer" width="100%" align="center">
 						<tr>
 							<td align="center" width="50%"><img src="img/icon/fb.png"></td>
 							<td align="center" width="50%"><img src="img/icon/ig.png"></td>
@@ -270,10 +271,8 @@
 			</div>
 		</div>
 	</div>
-
-
-
   </section>
+  <!-- akhir footer baru -->
 
 
 
@@ -285,12 +284,12 @@ $(window).scroll(function ()
 {
 	var wScroll = $(this).scrollTop();
 
-	
+
 
 	if(wScroll > 1508 && wScroll < 1699)
 	{
 		$("#relawan_a").fadeIn(3000);
-		$("#relawan_b").animate({"width" : "100%"},2500);	
+		$("#relawan_b").animate({"width" : "100%"},2500);
 	}
 
 	if (wScroll > 1700)
