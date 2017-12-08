@@ -1,7 +1,10 @@
 @extends('_layouts.utama')
 
 @section('tubuh')
+<<<<<<< HEAD
+=======
 
+>>>>>>> 72018f2aa1672b7338edda44a4b83327e96811b7
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-12 col-lg">
@@ -26,18 +29,19 @@
 
 		<br>
 
-		<div class="row">
-			<div class="col-md-2 alert-danger">
-				<img src="img/berita/berita_1.jpg">
-			</div>
-			<div class="col-md-offset-1 col-md-9 alert-warning">
-				<h1>Judul berita</h1>
+    @foreach ($blog as $index => $item)
+      <div class="row">
+  			<div class="col-md-2 alert-danger">
+  				<img src="img/berita/berita_1.jpg">
+  			</div>
+  			<div class="col-md-offset-1 col-md-9 alert-warning">
+  				<h1>{{$item->judul}}</h1>
+  				<p>{{$item->isi}}</p>
+  			</div>
+  		</div>
+    @endforeach
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. An hoc usque quaque, aliter in vita? Nam quid possumus facere melius? Huius, Lyco, oratione locuples, rebus ipsis ielunior. Tu enim ista lenius, hic Stoicorum more nos vexat. Duo Reges: constructio interrete. Quantum Aristoxeni ingenium consumptum videmus in musicis? Polemoni et iam ante Aristoteli ea prima visa sunt, quae paulo ante dixi.</p>
-			</div>
-		</div>
-
-		<br>
+		{{-- <br>
 
 		<div class="row">
 			<div class="col-md-2 alert-danger">
@@ -61,7 +65,7 @@
 
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. An hoc usque quaque, aliter in vita? Nam quid possumus facere melius? Huius, Lyco, oratione locuples, rebus ipsis ielunior. Tu enim ista lenius, hic Stoicorum more nos vexat. Duo Reges: constructio interrete. Quantum Aristoxeni ingenium consumptum videmus in musicis? Polemoni et iam ante Aristoteli ea prima visa sunt, quae paulo ante dixi.</p>
 			</div>
-		</div>
+		</div> --}}
 	</div>
   </section>
 
@@ -111,12 +115,12 @@
 
   <section class="visible-lg-block">
 	<div class="container-fluid">
-	 <div id="relawan_a">
+	 <div>
 		<div class="row">
-			<div class="col-md-3">
-				<img src="img/donasi.jpg">
+			<div class="col-md-3" >
+				<img id="relawan_b" src="img/donasi.jpg">
 			</div>
-			<div class="col-md-9 text-justify" id="ajakan">
+			<div class="col-md-9 text-justify" id="relawan_a">
 				<b id="hubungi_kami">Unduh Indonesia</b> ingin mengajak kamu yang ingin berkontribusi untuk mengembangkan potensi anak-anak Sekolah di pedalaman Kalimantan Timur sebagai relawan. Ingin mengisi waktu luang dengan kegiatan bermanfaat dan produktif? tunggu apa lagi? Mari bergabung untuk memberikan pengaruh positif untuk anak-anak dan masyarakat di Kaltim.
 			</div>
 		</div>
@@ -124,32 +128,33 @@
 
 		<br><br>
 
-	 <div id="donasi_a">
-		<div class="row">
-			<div class="col-md-9 text-justify" id="ajakan">
-				"Sebaik-baiknya manusia ialah dia yang bermanfaat bagi orang banyak". Sudahkah kamu bermanfaat bagi orang lain?   Yuk berdonasi untuk keperluan pendidikan/sarana adik2 di desa/ sekolah di pedalaman Kalimantan timur. Ayo jadikan donasi ini menjadi kebiasaan dalam hidup kita.
-			</div>
+		
+	 <div >
 
-			<div class="col-md-3" style="padding-right:0;">
-			<div class="col-md-3">
-			<div class="col-md-3" style="padding-right:0;">
-				<img src="img/donasi.jpg" align="right">
-			</div>
+		 <div id="donasi_a">
+			<div class="row">
+				<div class="col-md-9 text-justify" id="donasi_a">
+					"Sebaik-baiknya manusia ialah dia yang bermanfaat bagi orang banyak". Sudahkah kamu bermanfaat bagi orang lain?   Yuk berdonasi untuk keperluan pendidikan/sarana adik2 di desa/ sekolah di pedalaman Kalimantan timur. Ayo jadikan donasi ini menjadi kebiasaan dalam hidup kita.
+				</div>
 
-		</div>
+
+				</div>
+
+			</div>
 	 </div>
 
 		<br><br>
-	 <div id="kunjungan_a">
+	 <div >
 		<div class="row">
-			<div class="col-md-3">
-				<img src="img/donasi.jpg">
+			<div class="col-md-3" >
+				<img id="kunjungan_b" src="img/donasi.jpg">
 			</div>
-			<div class="col-md-9 text-justify" id="ajakan">
+			<div class="col-md-9 text-justify" id="kunjungan_a">
 				Kamu punya informasi seputar sekolah-sekolah pedalaman di kaltim? jangan sungkan untuk berbagi informasi, karna dari informasi sederhana itulah hal-hal besar bisa terjadi.
 			</div>
 		</div>
 	 </div>
+	
 	</div>
   </section>
 
@@ -208,12 +213,8 @@
 					<button type="button" class="btn btn-primary">Kirim Kritik/Saran</button>
 				</div>
 			</div>
-
 			<br>
-
-
 	</div>
-
   </section>
 
   <br><br><br>
@@ -221,7 +222,6 @@
 
   <section style="background-color:white">
 	<div class="container">
-
 		<div class="row">
 			<div class="col-md-12 text-center">
 				&nbsp;&nbsp;&nbsp;&nbsp; <span id="hubungi_kami">Hubungi Kami</span>
@@ -285,23 +285,25 @@ $(window).scroll(function ()
 {
 	var wScroll = $(this).scrollTop();
 
-	console.log(wScroll);
+	
 
 	if(wScroll > 1508 && wScroll < 1699)
 	{
-		$("#relawan_a").fadeIn(3000)
+		$("#relawan_a").fadeIn(3000);
+		$("#relawan_b").animate({"width" : "100%"},2500);	
 	}
 
 	if (wScroll > 1700)
 	{
-		$("#donasi_a").fadeIn(3000)
+		$("#donasi_a").fadeIn(3000);
+		$("#donasi_b").animate({"width" : "100%"},2500);
 	}
 
 	if (wScroll > 1900)
 	{
-		$("#kunjungan_a").fadeIn(3000)
+		$("#kunjungan_a").fadeIn(3000);
+		$("#kunjungan_b").animate({"width" : "100%"},2500);
 	}
-
 })
 
 </script>
