@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col-md-4 col-md-offset-4">
+  <div class="col-md-12">
     <table class="table table-bordered">
       <thead>
         <tr>
@@ -19,7 +19,10 @@
               <a href="{{route('blog.edit',$item->id)}}" class="btn btn-primary btn-md">
                 <i class="glyphicon glyphicon-pencil"></i>
               </a>
-              <a href="{{route('blog.destroy',$item->id)}}" class="btn btn-danger btn-md"></a>
+              <a href="{{route('blog.destroy',$item->id)}}" class="btn btn-danger btn-md"
+                data-confirm="yakin ?" data-method="DELETE">
+                <i class="glyphicon glyphicon-trash"></i>
+              </a>
             </td>
           </tr>
         @empty
