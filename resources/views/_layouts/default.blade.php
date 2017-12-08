@@ -5,7 +5,9 @@
     <title>UNDUH INDONESIA</title>
     <link rel="stylesheet" href="{{asset('bootstrap/css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{asset('bootstrap/js/bootstrap.js')}}">
-    <script src="{{asset('boostrap/js/jquery')}}"></script>
+    <link href="{{asset('css/custom.css')}}">
+	<script src="{{asset('boostrap/js/jquery')}}"></script>
+	
   </head>
   <body>
     @yield('utama')
