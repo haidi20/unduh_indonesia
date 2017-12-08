@@ -10,7 +10,7 @@ use App\Models\Blog;
 class UtamaController extends Controller
 {
     public function index(){
-        session()->put('navbar','landingpage');
+        //session()->put('navbar','landingpage');
         return view('landingpage.index');
     }
 }

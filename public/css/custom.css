@@ -1,6 +1,50 @@
+
+
 .jumbotron {
   margin-top : 0;
   background-image : url('../img/1.jpg');
   background-repeat : no-repeat;
   padding-bottom: 600px;
-} 
+  width : 100%;
+}
+
+.logo
+{
+	width : 100%;
+	
+}
+
+nav 
+{
+	margin-bottom : 0;
+	
+}
+
+#berita
+{
+	
+	font-size : 72px;
+}
+
+#judul_berita
+{
+	
+	font-size : 12px;
+}
+
+#isi_berita
+{
+	
+	font-size : 8px;
+}
+
+#hubungi_kami
+{
+	font-size : 32px;
+}
+
+#ajakan
+{
+	
+	font-size : 22px;
+}
