@@ -1,8 +1,4 @@
 <?php
 
-Route::get('/', function(){
-    return view('landingpage.index');
-});
-Route::get('/admin', function(){
-    return view('admin.index');
-});
+Route::get('/', 'UtamaController@index');
+Route::get('/admin', 'HomeController@index');

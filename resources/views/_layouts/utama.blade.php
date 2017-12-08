@@ -1,6 +1,6 @@
-@extends('layouts.default')
+@extends('_layouts.default')
 
 @section('utama')
-  @include('layouts.navbar')
+  @include('_layouts.navbar')
   @yield('tubuh')
 @endsection

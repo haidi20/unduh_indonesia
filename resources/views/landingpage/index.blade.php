@@ -1,5 +1,5 @@
-@extends('layouts.utama')
+@extends('_layouts.utama')
 
 @section('tubuh')
-  <h1>bagian lading page</h1>
+  <h1>bagian landing page</h1>
 @endsection
