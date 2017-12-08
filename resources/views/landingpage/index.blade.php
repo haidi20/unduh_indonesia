@@ -1,10 +1,7 @@
 @extends('_layouts.utama')
 
 @section('tubuh')
-<<<<<<< HEAD
-=======
 
->>>>>>> 72018f2aa1672b7338edda44a4b83327e96811b7
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-12 col-lg">
@@ -26,7 +23,6 @@
 				</div>
 			</div>
 		</div>
-
 		<br>
 
     @foreach ($blog as $index => $item)
@@ -40,9 +36,7 @@
   			</div>
   		</div>
     @endforeach
-
 		{{-- <br>
-
 		<div class="row">
 			<div class="col-md-2 alert-danger">
 				<img src="img/berita/berita_3.JPG">
@@ -68,13 +62,8 @@
 		</div> --}}
 	</div>
   </section>
-
   <br><br>
-
-  <section class="pengurus" id="pengurus">
-
   <section style="background-color:white;" class="pengurus" id="pengurus">
-
 	<div class="row">
 		<div class="col-md-12">
 			<div class="text-center">
@@ -82,32 +71,26 @@
 			</div>
 		</div>
 	</div>
-
-	<div class="row">
-
-
-	<br>
-
-	<div style="padding-bottom:10px;"class="row">
-		<div class="col-md-offset-2 col-md-3 text-center" >
+	<div class="row"><br>
+		<div style="padding-bottom:10px;"class="row">
+			<div class="col-md-offset-2 col-md-3 text-center" >
 				<img src="img/berita/berita_1.jpg">
 				<br><br>
 				<p>SEKRETARIS</p>
-		</div>
+			</div>
+			<div class="col-md-3 text-center">
+					<img src="img/berita/berita_1.jpg">
+					<br><br>
+					KETUA
+			</div>
 
-		<div class="col-md-3 text-center">
-				<img src="img/berita/berita_1.jpg">
-				<br><br>
-				KETUA
+			<div class="col-md-3 text-center">
+					<img src="img/berita/berita_1.jpg">
+					<br><br>
+					WAKIL KETUA
+			</div>
 		</div>
-
-		<div class="col-md-3 text-center">
-				<img src="img/berita/berita_1.jpg">
-				<br><br>
-				WAKIL KETUA
-		</div>
-	</div>
-
+	</div>	
   </section>
 
   <br><br><br>
@@ -125,24 +108,25 @@
 			</div>
 		</div>
 	 </div>
-
 		<br><br>
+<<<<<<< HEAD
 
 
 	 <div >
 
 		 <div id="donasi_a">
+=======
+	 <div>
+>>>>>>> b7117e19e32bf1d60fb2caab7ad45114c78f11cb
 			<div class="row">
 				<div class="col-md-9 text-justify" id="donasi_a">
 					"Sebaik-baiknya manusia ialah dia yang bermanfaat bagi orang banyak". Sudahkah kamu bermanfaat bagi orang lain?   Yuk berdonasi untuk keperluan pendidikan/sarana adik2 di desa/ sekolah di pedalaman Kalimantan timur. Ayo jadikan donasi ini menjadi kebiasaan dalam hidup kita.
 				</div>
-
-
+				<div class="col-md-3" >
+					<img id="donasi_b" src="img/donasi.jpg">
 				</div>
-
 			</div>
 	 </div>
-
 		<br><br>
 	 <div >
 		<div class="row">
@@ -154,7 +138,10 @@
 			</div>
 		</div>
 	 </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> b7117e19e32bf1d60fb2caab7ad45114c78f11cb
 	</div>
   </section>
 
@@ -162,17 +149,11 @@
 
   <section>
 	<div class="container">
-
-
-
 			<div class="row">
 				<div class="col-md-12 text-center">
 					&nbsp;&nbsp;&nbsp;&nbsp; <span id="hubungi_kami">Kritik/Saran</span>
 				</div>
-			</div>
-
-			<br><br>
-
+			</div><br><br>
 			<div class="row">
 				<div class="col-xs-offset-1 col-xs-1">
 					<label for="nama">Nama</label>
@@ -180,9 +161,7 @@
 				<div class="col-xs-offset-1 col-xs-8">
 					<input name="nama" type="text" class="form-control" id="nama" placeholder="Nama">
 				</div>
-			</div>
-
-			<br>
+			</div><br>
 
 			<div class="row">
 				<div class="col-xs-offset-1 col-xs-1">
@@ -191,10 +170,7 @@
 				<div class="col-xs-offset-1 col-xs-8">
 					<input name="email" type="email" class="form-control" id="email" placeholder="Email">
 				</div>
-			</div>
-
-			<br>
-
+			</div><br>
 			<div class="row">
 				<div class="col-xs-offset-1 col-xs-1">
 					<label for="pesan">Pesan</label>
@@ -202,33 +178,31 @@
 				<div class="col-xs-offset-1 col-xs-8">
 					<textarea id="pesan" name="pesan" class="form-control" rows="3" placeholder="Masukkan Pesan Anda"></textarea>
 				</div>
-
-			</div>
-
-			<br><br><br>
-
-
+			</div><br><br><br>
 			<div class="row">
 				<div class=" col-xs-offset-4 col-xs-4 center">
 					<button type="button" class="btn btn-primary">Kirim Kritik/Saran</button>
 				</div>
-			</div>
-			<br>
+			</div><br>
 	</div>
+<<<<<<< HEAD
   </section>
 
   <br><br><br>
 
 <!-- bagian footer baru -->
   <section style="background-color:">
+=======
+  </section><br><br><br>
+  <section>
+>>>>>>> b7117e19e32bf1d60fb2caab7ad45114c78f11cb
 	<div class="container">
     <hr>
 		<div class="row">
 			<div class="col-md-12 text-center">
 				&nbsp;&nbsp;&nbsp;&nbsp; <span style="float:left" id="hubungi_kami">Hubungi Kami</span>
 			</div>
-		</div>
-
+		</div><br>
 		<div class="row">
 			<div class="col-md-6">
 			<br><br>
@@ -257,7 +231,6 @@
 						<tr>
 							<td align="center" width="50%"><img src="img/icon/fb.png"></td>
 							<td align="center" width="50%"><img src="img/icon/ig.png"></td>
-
 						</tr>
 						<tr>
 							<td align="center" colspan="3"> <hr> </td>
@@ -265,27 +238,35 @@
 						<tr>
 							<td align="center"><p>UnduhIndonesia</p></td>
 							<td align="center"> <p>UnduhIndonesia</p></td>
-
 						</tr>
 					</table>
 			</div>
 		</div>
 	</div>
+<<<<<<< HEAD
   </section>
   <!-- akhir footer baru -->
 
+=======
+  </section><br><br><br>
+    <footer class="text-center">
+		<b>Copyright @2017 <br> Unduh Indonesia</b>
+	</footer>
+>>>>>>> b7117e19e32bf1d60fb2caab7ad45114c78f11cb
 
 
 
 <script>
-
-
 $(window).scroll(function ()
 {
 	var wScroll = $(this).scrollTop();
+<<<<<<< HEAD
 
 
 
+=======
+	
+>>>>>>> b7117e19e32bf1d60fb2caab7ad45114c78f11cb
 	if(wScroll > 1508 && wScroll < 1699)
 	{
 		$("#relawan_a").fadeIn(3000);

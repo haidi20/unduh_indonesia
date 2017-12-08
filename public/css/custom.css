@@ -1,23 +1,33 @@
-
-label{
+label
+{
   font-weight: lighter;
   padding-top: 5px;
 }
-.btn-success{
+.btn-success
+{
   margin-top:10px;
   margin-bottom:5px;
 }
+<<<<<<< HEAD
 body{
   background-color: ;
+=======
+body
+{
+  background-color: #ecf0f1;
+>>>>>>> b7117e19e32bf1d60fb2caab7ad45114c78f11cb
 }
-.thumbnail{
+.thumbnail
+{
   border-radius: 0px;
   padding: 0px;
 }
-.container-fluid{
+.container-fluid
+{
   margin-bottom: -20px;
 }
-.panel-body{
+.panel-body
+{
   border-radius: 0px;
 }
 table{
@@ -27,13 +37,11 @@ table{
 .logo
 {
 	width : 100%;
-
 }
 
 nav
 {
 	margin-bottom : 0;
-
 }
 #footer{
   background-color: inherit;
@@ -41,19 +49,16 @@ nav
 
 #berita
 {
-
 	font-size : 72px;
 }
 
 #judul_berita
 {
-
 	font-size : 12px;
 }
 
 #isi_berita
 {
-
 	font-size : 8px;
 }
 
@@ -93,13 +98,11 @@ nav
 #kunjungan_a
 {
 	display : none;
-<<<<<<< HEAD
-}
-=======
 	font-size : 22px;
 }
 
 #kunjungan_b
 {
-	width : 30%;}
->>>>>>> 69a0a76da340d75ceb4fa3bf780694b1feaec808
+	width : 30%;
+}
+
