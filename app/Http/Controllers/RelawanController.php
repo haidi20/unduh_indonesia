@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Models\Relawan;
 
+use Auth;
+
 class RelawanController extends Controller
 {
     public function tampil(){
@@ -73,7 +75,11 @@ class RelawanController extends Controller
         $relawan->alamat  = request('alamat');
         $relawan->save();
 
-        return redirect()->route('relawan.index');
+        if (Auth::check()) {
+            return redirect()->route('relawan.index');
+        }else{
+            return redirect()->route('landingpage.relawan');
+        }
     }
 
     public function destroy($id){

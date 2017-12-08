@@ -90,7 +90,7 @@
 					WAKIL KETUA
 			</div>
 		</div>
-	</div>	
+	</div>
   </section>
 
   <br><br><br>
@@ -121,7 +121,7 @@
 		<br><br>
 	 <div >
 		<div class="row">
-			<div class="col-md-3" >
+			<div class="col-md-3">
 				<img id="kunjungan_b" src="img/donasi.jpg">
 			</div>
 			<div class="col-md-9 text-justify" id="kunjungan_a">

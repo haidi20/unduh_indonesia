@@ -10,6 +10,9 @@ class BlogController extends Controller
 {
     public function index(){
         $blog = Blog::paginate(10);
+
+        session()->put('navbar','admin');
+
         return view('admin.blog.index',compact('blog'));
     }
 
@@ -34,6 +37,9 @@ class BlogController extends Controller
         }
 
         $blog = Blog::paginate(10);
+
+        session()->put('navbar','admin');
+
         return view('admin.blog.form',compact('action','method','blog'));
     }
 

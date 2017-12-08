@@ -79,13 +79,13 @@
               <div class="col-md-4">
                 <center>
                   <h3>Jumlah Donatur</h3>
-                  <h1>20</h1>
+                  <h1>5</h1>
                 </center>
               </div>
               <div class="col-md-4">
                 <center>
                   <h3>Jumlah Kunjungan</h3>
-                  <h1>20</h1>
+                  <h1>10</h1>
                 </center>
               </div>
             </div>
