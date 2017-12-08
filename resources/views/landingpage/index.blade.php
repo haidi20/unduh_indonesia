@@ -90,7 +90,7 @@
 					WAKIL KETUA
 			</div>
 		</div>
-	</div>	
+	</div>
   </section>
 
   <br><br><br>
@@ -109,15 +109,10 @@
 		</div>
 	 </div>
 		<br><br>
-<<<<<<< HEAD
-
-
 	 <div >
 
 		 <div id="donasi_a">
-=======
 	 <div>
->>>>>>> b7117e19e32bf1d60fb2caab7ad45114c78f11cb
 			<div class="row">
 				<div class="col-md-9 text-justify" id="donasi_a">
 					"Sebaik-baiknya manusia ialah dia yang bermanfaat bagi orang banyak". Sudahkah kamu bermanfaat bagi orang lain?   Yuk berdonasi untuk keperluan pendidikan/sarana adik2 di desa/ sekolah di pedalaman Kalimantan timur. Ayo jadikan donasi ini menjadi kebiasaan dalam hidup kita.
@@ -138,10 +133,6 @@
 			</div>
 		</div>
 	 </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> b7117e19e32bf1d60fb2caab7ad45114c78f11cb
 	</div>
   </section>
 
@@ -151,7 +142,7 @@
 	<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					&nbsp;&nbsp;&nbsp;&nbsp; <span id="hubungi_kami">Kritik/Saran</span>
+					&nbsp;&nbsp;&nbsp;&nbsp; <span id="hubungi_kami">Kritik & Saran</span>
 				</div>
 			</div><br><br>
 			<div class="row">
@@ -176,26 +167,22 @@
 					<label for="pesan">Pesan</label>
 				</div>
 				<div class="col-xs-offset-1 col-xs-8">
-					<textarea id="pesan" name="pesan" class="form-control" rows="3" placeholder="Masukkan Pesan Anda"></textarea>
+					<textarea id="pesan" name="pesan" class="form-control" rows="3" placeholder="Pesan Anda Sangat Berguna Bagi Kami"></textarea>
 				</div>
 			</div><br><br><br>
 			<div class="row">
-				<div class=" col-xs-offset-4 col-xs-4 center">
+				<div class=" col-xs-offset-10 col-xs-1">
 					<button type="button" class="btn btn-primary">Kirim</button>
 				</div>
 			</div><br>
 	</div>
-<<<<<<< HEAD
   </section>
 
   <br><br><br>
 
 <!-- bagian footer baru -->
-  <section style="background-color:">
-=======
-  </section><br><br><br>
+
   <section>
->>>>>>> b7117e19e32bf1d60fb2caab7ad45114c78f11cb
 	<div class="container">
     <hr>
 		<div class="row">
@@ -243,16 +230,8 @@
 			</div>
 		</div>
 	</div>
-<<<<<<< HEAD
   </section>
   <!-- akhir footer baru -->
-
-=======
-  </section><br><br><br>
-    <footer class="text-center">
-		<b>Copyright @2017 <br> Unduh Indonesia</b>
-	</footer>
->>>>>>> b7117e19e32bf1d60fb2caab7ad45114c78f11cb
 
 
 
@@ -260,13 +239,7 @@
 $(window).scroll(function ()
 {
 	var wScroll = $(this).scrollTop();
-<<<<<<< HEAD
 
-
-
-=======
-	
->>>>>>> b7117e19e32bf1d60fb2caab7ad45114c78f11cb
 	if(wScroll > 1508 && wScroll < 1699)
 	{
 		$("#relawan_a").fadeIn(3000);

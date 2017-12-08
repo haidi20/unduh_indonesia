@@ -132,7 +132,7 @@
 </div>
 </div>
 </div>
-
+<!-- bagian footer baru -->
 <section style="background-color:">
 <div class="container">
   <hr>
@@ -184,9 +184,7 @@
     </div>
   </div>
 </div>
-
-
-
 </section>
+<!-- akhir footer baru -->
 
 @endsection
