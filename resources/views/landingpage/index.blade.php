@@ -1,13 +1,50 @@
 @extends('_layouts.utama')
 
 @section('tubuh')
-  <nav class="navbar navbar-default">
+  <!-- <nav class="navbar navbar-default">
 	  <div class="container-fluid">
 		<div class="navbar-header">
 					Unduh Indonesia
 		</div>
 
 	  </div>
+<<<<<<< HEAD
+	</nav> -->
+
+
+<!--
+  <nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<img src="img/logo.jpg" class="logo">
+			</div>
+
+
+			<div class="col-md-offset-2 col-md-2">
+				Donasi
+			</div>
+			<div class="col-md-2">
+				Relawan
+			</div>
+			<div class="col-md-2 warning">
+				Kunjungan
+			</div>
+	  </div>
+	  </div>
+</nav>
+-->
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12 col-lg">
+      <a href="#" class="thumbnail">
+        <img src='../img/1.jpg' alt="Relawan">
+      </a>
+    </div>
+  </div>
+</div>
 	</nav>
 
 
@@ -21,8 +58,6 @@
 			</div>
 		</div>
 	</section>
-
-
 
   <section class="berita" id="">
 	<div class="container">
@@ -78,7 +113,7 @@
 
   <br><br>
 
-  <section class="pengurus" id="pengurus">
+  <section style="background-color:white;" class="pengurus" id="pengurus">
 
 	<div class="row">
 		<div class="col-md-12">
@@ -88,24 +123,25 @@
 		</div>
 	</div>
 
-	<br><br><br>
 
-	<div class="row">
+	<br>
+
+	<div style="padding-bottom:10px;"class="row">
 		<div class="col-md-offset-2 col-md-3 text-center" >
 				<img src="img/berita/berita_1.jpg">
-				<br>
-				SEKRETARIS
+				<br><br>
+				<p>SEKRETARIS</p>
 		</div>
 
 		<div class="col-md-3 text-center">
 				<img src="img/berita/berita_1.jpg">
-				<br>
+				<br><br>
 				KETUA
 		</div>
 
 		<div class="col-md-3 text-center">
 				<img src="img/berita/berita_1.jpg">
-				<br>
+				<br><br>
 				WAKIL KETUA
 		</div>
 	</div>
@@ -135,6 +171,7 @@
 			<div class="col-md-9 text-justify" id="ajakan">
 				"Sebaik-baiknya manusia ialah dia yang bermanfaat bagi orang banyak". Sudahkah kamu bermanfaat bagi orang lain?   Yuk berdonasi untuk keperluan pendidikan/sarana adik2 di desa/ sekolah di pedalaman Kalimantan timur. Ayo jadikan donasi ini menjadi kebiasaan dalam hidup kita.
 			</div>
+
 
 			<div class="col-md-3" style="padding-right:0;">
 				<img src="img/donasi.jpg" align="right">

@@ -12,5 +12,6 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call(create_relawan_seed::class);
+        $this->call(create_blog_seed::class);
     }
 }
