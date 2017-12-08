@@ -1,53 +1,53 @@
-
-label{
+label
+{
   font-weight: lighter;
   padding-top: 5px;
 }
-.btn-success{
+.btn-success
+{
   margin-top:10px;
   margin-bottom:5px;
 }
-body{
+body
+{
   background-color: #ecf0f1;
 }
-.thumbnail{
+.thumbnail
+{
   border-radius: 0px;
   padding: 0px;
 }
-.container-fluid{
+.container-fluid
+{
   margin-bottom: -20px;
 }
-.panel-body{
+.panel-body
+{
   border-radius: 0px;
 }
 
 .logo
 {
 	width : 100%;
-
 }
 
 nav
 {
 	margin-bottom : 0;
-
 }
 
 #berita
 {
-
 	font-size : 72px;
 }
 
 #judul_berita
 {
-
 	font-size : 12px;
 }
 
 #isi_berita
 {
-
 	font-size : 8px;
 }
 
