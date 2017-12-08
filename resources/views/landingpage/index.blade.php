@@ -1,6 +1,10 @@
 @extends('_layouts.utama')
 
 @section('tubuh')
+<<<<<<< HEAD
+=======
+
+>>>>>>> 72018f2aa1672b7338edda44a4b83327e96811b7
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-12 col-lg">
@@ -11,18 +15,6 @@
   </div>
 </div>
 	</nav>
-
-
-	<section class="jumbotron" id="headerfoto">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 warning">
-
-
-				</div>
-			</div>
-		</div>
-	</section>
 
   <section class="berita" id="">
 	<div class="container">
@@ -37,18 +29,19 @@
 
 		<br>
 
-		<div class="row">
-			<div class="col-md-2 alert-danger">
-				<img src="img/berita/berita_1.jpg">
-			</div>
-			<div class="col-md-offset-1 col-md-9 alert-warning">
-				<h1>Judul berita</h1>
+    @foreach ($blog as $index => $item)
+      <div class="row">
+  			<div class="col-md-2 alert-danger">
+  				<img src="img/berita/berita_1.jpg">
+  			</div>
+  			<div class="col-md-offset-1 col-md-9 alert-warning">
+  				<h1>{{$item->judul}}</h1>
+  				<p>{{$item->isi}}</p>
+  			</div>
+  		</div>
+    @endforeach
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. An hoc usque quaque, aliter in vita? Nam quid possumus facere melius? Huius, Lyco, oratione locuples, rebus ipsis ielunior. Tu enim ista lenius, hic Stoicorum more nos vexat. Duo Reges: constructio interrete. Quantum Aristoxeni ingenium consumptum videmus in musicis? Polemoni et iam ante Aristoteli ea prima visa sunt, quae paulo ante dixi.</p>
-			</div>
-		</div>
-
-		<br>
+		{{-- <br>
 
 		<div class="row">
 			<div class="col-md-2 alert-danger">
@@ -72,13 +65,15 @@
 
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. An hoc usque quaque, aliter in vita? Nam quid possumus facere melius? Huius, Lyco, oratione locuples, rebus ipsis ielunior. Tu enim ista lenius, hic Stoicorum more nos vexat. Duo Reges: constructio interrete. Quantum Aristoxeni ingenium consumptum videmus in musicis? Polemoni et iam ante Aristoteli ea prima visa sunt, quae paulo ante dixi.</p>
 			</div>
-		</div>
+		</div> --}}
 	</div>
   </section>
 
   <br><br>
 
   <section style="background-color:white;" class="pengurus" id="pengurus">
+
+  <section class="pengurus" id="pengurus">
 
 	<div class="row">
 		<div class="col-md-12">
@@ -87,6 +82,8 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="row">
 
 
 	<br>
@@ -127,23 +124,24 @@
 				<b id="hubungi_kami">Unduh Indonesia</b> ingin mengajak kamu yang ingin berkontribusi untuk mengembangkan potensi anak-anak Sekolah di pedalaman Kalimantan Timur sebagai relawan. Ingin mengisi waktu luang dengan kegiatan bermanfaat dan produktif? tunggu apa lagi? Mari bergabung untuk memberikan pengaruh positif untuk anak-anak dan masyarakat di Kaltim.
 			</div>
 		</div>
-	 </div>	
+	 </div>
 
 		<br><br>
+
 		
 	 <div >
-		<div class="row">
-			<div class="col-md-9 text-justify" id="donasi_a">
-				"Sebaik-baiknya manusia ialah dia yang bermanfaat bagi orang banyak". Sudahkah kamu bermanfaat bagi orang lain?   Yuk berdonasi untuk keperluan pendidikan/sarana adik2 di desa/ sekolah di pedalaman Kalimantan timur. Ayo jadikan donasi ini menjadi kebiasaan dalam hidup kita.
+
+		 <div id="donasi_a">
+			<div class="row">
+				<div class="col-md-9 text-justify" id="donasi_a">
+					"Sebaik-baiknya manusia ialah dia yang bermanfaat bagi orang banyak". Sudahkah kamu bermanfaat bagi orang lain?   Yuk berdonasi untuk keperluan pendidikan/sarana adik2 di desa/ sekolah di pedalaman Kalimantan timur. Ayo jadikan donasi ini menjadi kebiasaan dalam hidup kita.
+				</div>
+
+
+				</div>
+
 			</div>
-
-
-			<div class="col-md-3" >
-				<img id="donasi_b" src="img/donasi.jpg" align="right">
-			</div>
-
-		</div>
-	 </div>	
+	 </div>
 
 		<br><br>
 	 <div >
@@ -285,31 +283,30 @@
     <footer class="text-center">
 		<b>Copyright @2017 <br> Unduh Indonesia</b>
 	</footer>
-	
-	
-	
+
+
+
 <script>
 
 
 $(window).scroll(function ()
 {
 	var wScroll = $(this).scrollTop();
+
 	
-	console.log(wScroll);
-	
+
 	if(wScroll > 1508 && wScroll < 1699)
 	{
 		$("#relawan_a").fadeIn(3000);
 		$("#relawan_b").animate({"width" : "100%"},2500);	
 	}
-	
-	
+
 	if (wScroll > 1700)
 	{
 		$("#donasi_a").fadeIn(3000);
 		$("#donasi_b").animate({"width" : "100%"},2500);
 	}
-	
+
 	if (wScroll > 1900)
 	{
 		$("#kunjungan_a").fadeIn(3000);

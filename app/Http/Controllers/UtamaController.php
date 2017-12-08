@@ -11,6 +11,7 @@ class UtamaController extends Controller
 {
     public function index(){
         session()->put('navbar','landingpage');
-        return view('landingpage.index');
+        $blog = Blog::orderBy('created_at')->paginate(3);
+        return view('landingpage.index',compact('blog'));
     }
 }
