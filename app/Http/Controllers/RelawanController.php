@@ -8,6 +8,11 @@ use App\Models\Relawan;
 
 class RelawanController extends Controller
 {
+    public function tampil(){
+        session()->put('navbar','landingpage');
+        return view('landingpage.relawan');
+    }
+
     public function index(){
         $relawan = Relawan::paginate(10);
 
