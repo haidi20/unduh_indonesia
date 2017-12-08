@@ -1,22 +1,16 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default" style="background-color:#3498db">
  <div class="container-fluid">
    <div class="navbar-header">
-     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-       <span class="sr-only">Unduh Indonesia</span>
-       <span class="icon-bar"></span>
-       <span class="icon-bar"></span>
-       <span class="icon-bar"></span>
-     </button>
-     <a class="navbar-brand" href="#">Unduh Indonesia</a>
+     <a class="navbar-brand" href="#"><div class="header">Unduh Indonesia</div></a>
    </div>
    <div id="navbar" class="navbar-collapse collapse">
-     <ul class="nav navbar-nav">
-       <li><a href="#">Dashboard</a></li>
-       <li><a href="#">Blog</a></li>
-       <li><a href="#">Relawan</a></li>
+     <ul class="nav navbar-nav putih">
+       <li><a href="#"><div class="header">Dashboard</div></a></li>
+       <li><a href="#"><div class="header">Blog</div></a></li>
+       <li><a href="#"><div class="header">Relawan</div></a></li>
      </ul>
      <ul class="nav navbar-nav navbar-right">
-       <li><a href="#">Keluar</a></li>
+       <li><a href="#"><div class="header">Keluar</div></a></li>
      </ul>
    </div>
  </div>
