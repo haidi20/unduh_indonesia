@@ -1,53 +1,60 @@
-
-label{
+label
+{
   font-weight: lighter;
   padding-top: 5px;
 }
-.btn-success{
+.btn-success
+{
   margin-top:10px;
   margin-bottom:5px;
 }
-body{
+
+body
+{
   background-color: #ecf0f1;
 }
-.thumbnail{
+.thumbnail
+{
   border-radius: 0px;
   padding: 0px;
 }
-.container-fluid{
+.container-fluid
+{
   margin-bottom: -20px;
 }
-.panel-body{
+.panel-body
+{
   border-radius: 0px;
+}
+table{
+  background-color: white;
 }
 
 .logo
 {
 	width : 100%;
-
 }
 
 nav
 {
 	margin-bottom : 0;
-
+}
+#footer{
+  background-color: inherit;
 }
 
 #berita
 {
-
 	font-size : 72px;
 }
 
 #judul_berita
 {
-
 	font-size : 12px;
 }
 
 #isi_berita
 {
-
 	font-size : 8px;
 }
 
@@ -65,14 +72,33 @@ nav
 #relawan_a
 {
 	display : none;
+	font-size : 22px;
+}
+
+#relawan_b
+{
+	width : 30%;
 }
 
 #donasi_a
 {
 	display : none;
+	font-size : 22px;
+}
+
+#donasi_b
+{
+	width : 30%;
 }
 
 #kunjungan_a
 {
 	display : none;
+	font-size : 22px;
 }
+
+#kunjungan_b
+{
+	width : 30%;
+}
+
