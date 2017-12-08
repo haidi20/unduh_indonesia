@@ -65,14 +65,31 @@ nav
 #relawan_a
 {
 	display : none;
+	font-size : 22px;
+}
+
+#relawan_b
+{
+	width : 30%;
 }
 
 #donasi_a
 {
 	display : none;
+	font-size : 22px;
+}
+
+#donasi_b
+{
+	width : 30%;
 }
 
 #kunjungan_a
 {
 	display : none;
+	font-size : 22px;
 }
+
+#kunjungan_b
+{
+	width : 30%;}

@@ -1,41 +1,6 @@
 @extends('_layouts.utama')
 
 @section('tubuh')
-  <!-- <nav class="navbar navbar-default">
-	  <div class="container-fluid">
-		<div class="navbar-header">
-					Unduh Indonesia
-		</div>
-
-	  </div>
-<<<<<<< HEAD
-	</nav> -->
-
-
-<!--
-  <nav class="navbar navbar-default navbar-fixed-top">
-	  <div class="container">
-		<div class="row">
-			<div class="col-md-3">
-				<img src="img/logo.jpg" class="logo">
-			</div>
-
-
-			<div class="col-md-offset-2 col-md-2">
-				Donasi
-			</div>
-			<div class="col-md-2">
-				Relawan
-			</div>
-			<div class="col-md-2 warning">
-				Kunjungan
-			</div>
-	  </div>
-	  </div>
-</nav>
--->
-
-
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-12 col-lg">
@@ -153,12 +118,12 @@
 
   <section class="visible-lg-block">
 	<div class="container-fluid">
-	 <div id="relawan_a">
+	 <div>
 		<div class="row">
-			<div class="col-md-3">
-				<img src="img/donasi.jpg">
+			<div class="col-md-3" >
+				<img id="relawan_b" src="img/donasi.jpg">
 			</div>
-			<div class="col-md-9 text-justify" id="ajakan">
+			<div class="col-md-9 text-justify" id="relawan_a">
 				<b id="hubungi_kami">Unduh Indonesia</b> ingin mengajak kamu yang ingin berkontribusi untuk mengembangkan potensi anak-anak Sekolah di pedalaman Kalimantan Timur sebagai relawan. Ingin mengisi waktu luang dengan kegiatan bermanfaat dan produktif? tunggu apa lagi? Mari bergabung untuk memberikan pengaruh positif untuk anak-anak dan masyarakat di Kaltim.
 			</div>
 		</div>
@@ -166,31 +131,32 @@
 
 		<br><br>
 		
-	 <div id="donasi_a">
+	 <div >
 		<div class="row">
-			<div class="col-md-9 text-justify" id="ajakan">
+			<div class="col-md-9 text-justify" id="donasi_a">
 				"Sebaik-baiknya manusia ialah dia yang bermanfaat bagi orang banyak". Sudahkah kamu bermanfaat bagi orang lain?   Yuk berdonasi untuk keperluan pendidikan/sarana adik2 di desa/ sekolah di pedalaman Kalimantan timur. Ayo jadikan donasi ini menjadi kebiasaan dalam hidup kita.
 			</div>
 
 
-			<div class="col-md-3" style="padding-right:0;">
-				<img src="img/donasi.jpg" align="right">
+			<div class="col-md-3" >
+				<img id="donasi_b" src="img/donasi.jpg" align="right">
 			</div>
 
 		</div>
 	 </div>	
 
 		<br><br>
-	 <div id="kunjungan_a">
+	 <div >
 		<div class="row">
-			<div class="col-md-3">
-				<img src="img/donasi.jpg">
+			<div class="col-md-3" >
+				<img id="kunjungan_b" src="img/donasi.jpg">
 			</div>
-			<div class="col-md-9 text-justify" id="ajakan">
+			<div class="col-md-9 text-justify" id="kunjungan_a">
 				Kamu punya informasi seputar sekolah-sekolah pedalaman di kaltim? jangan sungkan untuk berbagi informasi, karna dari informasi sederhana itulah hal-hal besar bisa terjadi.
 			</div>
 		</div>
 	 </div>
+	
 	</div>
   </section>
 
@@ -249,12 +215,8 @@
 					<button type="button" class="btn btn-primary">Kirim Kritik/Saran</button>
 				</div>
 			</div>
-
 			<br>
-
-
 	</div>
-
   </section>
 
   <br><br><br>
@@ -262,7 +224,6 @@
 
   <section>
 	<div class="container">
-
 		<div class="row">
 			<div class="col-md-12 text-center">
 				&nbsp;&nbsp;&nbsp;&nbsp; <span id="hubungi_kami">Hubungi Kami</span>
@@ -338,19 +299,22 @@ $(window).scroll(function ()
 	
 	if(wScroll > 1508 && wScroll < 1699)
 	{
-		$("#relawan_a").fadeIn(3000)
+		$("#relawan_a").fadeIn(3000);
+		$("#relawan_b").animate({"width" : "100%"},2500);	
 	}
+	
 	
 	if (wScroll > 1700)
 	{
-		$("#donasi_a").fadeIn(3000)
+		$("#donasi_a").fadeIn(3000);
+		$("#donasi_b").animate({"width" : "100%"},2500);
 	}
 	
 	if (wScroll > 1900)
 	{
-		$("#kunjungan_a").fadeIn(3000)
+		$("#kunjungan_a").fadeIn(3000);
+		$("#kunjungan_b").animate({"width" : "100%"},2500);
 	}
-	
 })
 
 </script>
