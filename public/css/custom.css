@@ -11,11 +11,10 @@ label
 body{
   background-color: white;
 }
-}
 .thumbnail
 {
   border-radius: 0px;
-  padding: 20px;
+  /*padding: 20px;*/
 }
 .container-fluid
 {
@@ -38,6 +37,8 @@ nav
 {
 	margin-bottom : 0;
 }
+/*slideShow*/
+.mySlides {display:none;}
 #footer{
   background-color: inherit;
 }
