@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class DashboardController extends Controller
 {
     public function index(){
         session()->put('navbar','admin');
-        return view('admin.index');
+        return view('admin.dashboard.index');
     }
 }
