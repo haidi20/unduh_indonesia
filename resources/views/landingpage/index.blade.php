@@ -181,7 +181,7 @@
 			</div><br><br><br>
 			<div class="row">
 				<div class=" col-xs-offset-4 col-xs-4 center">
-					<button type="button" class="btn btn-primary">Kirim Kritik/Saran</button>
+					<button type="button" class="btn btn-primary">Kirim</button>
 				</div>
 			</div><br>
 	</div>
