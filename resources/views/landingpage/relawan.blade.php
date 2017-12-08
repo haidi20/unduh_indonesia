@@ -133,60 +133,39 @@
 </div>
 </div>
 
-<section style="background-color:">
-<div class="container">
-  <hr>
-  <div class="row">
-    <div class="col-md-12 text-center">
-      &nbsp;&nbsp;&nbsp;&nbsp; <span style="float:left" id="hubungi_kami">Hubungi Kami</span>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-6">
-    <br><br>
-        <table id="footer" width="100%" align="center">
-          <tr>
-            <td align="center" width="30%"><img src="img/icon/phone.png"></td>
-            <td align="center" width="30%"><img src="img/icon/mail.png"></td>
-            <td align="center" width="30%"><img src="img/icon/location.png"></td>
-          </tr>
-          <tr>
-            <td align="center" colspan="3"> <hr> </td>
-          </tr>
-          <tr>
-            <td align="center"><p>+62 0541 12345</p></td>
-            <td align="center"><p>admin@unduhindonesia.org</p></td>
-            <td align="center"><p> Jl Ciptomangkusumo <br>Samarinda, Kalimantan Timur </p></td>
-          </tr>
-        </table>
-    </div>
-    <div class="col-md-1 center text-center visible-lg-block">
-      <!-- <center><div style="width: 0px; height: 200px; border: 1px #000 solid;"></div><center> -->
-    </div>
-    <div class="col-md-5">
-        <br><br>
-        <table id="footer" width="100%" align="center">
-          <tr>
-            <td align="center" width="50%"><img src="img/icon/fb.png"></td>
-            <td align="center" width="50%"><img src="img/icon/ig.png"></td>
-
-          </tr>
-          <tr>
-            <td align="center" colspan="3"> <hr> </td>
-          </tr>
-          <tr>
-            <td align="center"><p>UnduhIndonesia</p></td>
-            <td align="center"> <p>UnduhIndonesia</p></td>
-
-          </tr>
-        </table>
-    </div>
-  </div>
-</div>
-
-
-
+<section>
+	<div class="container">
+     <hr>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<span id="hubungi_kami">Hubungi Kami</span>
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-xs-12">
+			<br><br>
+					<table id="footer" width="100%" align="center">
+						<tr>
+							<td align="center" width="20%"><img src="img/icon/phone.png"></td>
+							<td align="center" width="20%"><img src="img/icon/mail.png"></td>
+							<td align="center" width="20%"><img src="img/icon/location.png"></td>
+							<td align="center" width="20%"><img src="img/icon/fb.png"></td>
+							<td align="center" width="20%"><img src="img/icon/ig.png"></td>
+						</tr>
+						<tr>
+							<td align="center" colspan="5"> <hr> </td>
+						</tr>
+						<tr>
+							<td align="center"><p>+62 0541 12345</p></td>
+							<td align="center"><p>admin@unduhindonesia.org</p></td>
+							<td align="center"><p> Jl Ciptomangkusumo <br>Samarinda, Kalimantan Timur </p></td>
+							<td align="center"><p>UnduhIndonesia</p></td>
+							<td align="center"> <p>UnduhIndonesia</p></td>
+						</tr>
+					</table>
+			</div>
+		</div>
+	</div>
 </section>
 
 @endsection
