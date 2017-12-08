@@ -10,6 +10,9 @@ class RelawanController extends Controller
 {
     public function index(){
         $relawan = Relawan::paginate(10);
+
+        session()->put('navbar','admin');
+
         return view('admin.relawan.index',compact('relawan'));
     }
 
