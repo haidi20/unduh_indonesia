@@ -11,7 +11,7 @@
        <li><a href="#"><div class="header">Kunjungan</div></a></li>
      </ul>
      <ul class="nav navbar-nav navbar-right">
-       <li><a href="#"><div class="header">Keluar</div></a></li>
+       <li><a href="{{route('loginn.keluar')}}"><div class="header">Keluar</div></a></li>
      </ul>
    </div>
  </div>

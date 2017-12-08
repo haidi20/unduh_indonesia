@@ -16,10 +16,10 @@
             <td>{{$item->judul}}</td>
             <td>{{$item->isi}}</td>
             <td>
-              <a href="{{route('blog.edit',$item->id)}}" class="btn btn-primary btn-md">
+              <a href="{{route('blog.edit',$item->id)}}" class="btn btn-primary btn-xs">
                 <i class="glyphicon glyphicon-pencil"></i>
               </a>
-              <a href="{{route('blog.destroy',$item->id)}}" class="btn btn-danger btn-md"
+              <a href="{{route('blog.destroy',$item->id)}}" class="btn btn-danger btn-xs"
                 data-confirm="yakin ?" data-method="DELETE">
                 <i class="glyphicon glyphicon-trash"></i>
               </a>

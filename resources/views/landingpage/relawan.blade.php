@@ -42,33 +42,31 @@
       <div class="col-md-6">
         <div class="panel panel-default">
           <div class="panel-body">
-
-            <label for="basic-url">Nama</label>
-            <div class="input-group input-group">
-              <span class="input-group-addon" id="sizing-addon3"></span>
-              <input type="text" class="form-control" placeholder="Masukkan Nama" aria-describedby="sizing-addon3">
+            <form action="{{route('relawan.store')}}" method="post">
+              {{ csrf_field() }}
+              <label for="basic-url">Nama</label>
+              <div class="input-group input-group">
+                <span class="input-group-addon" id="sizing-addon3"></span>
+                <input type="text" name="nama" class="form-control" placeholder="Masukkan Nama" aria-describedby="sizing-addon3" required>
               </div>
               <label for="basic-url">Email</label>
               <div class="input-group input-group">
                 <span class="input-group-addon" id="sizing-addon3"></span>
-                <input type="text" class="form-control" placeholder="example@example.com" aria-describedby="sizing-addon3">
-                </div>
-                <label for="basic-url">No.Telp</label>
-                <div class="input-group input-group">
+                <input type="text" name="email" class="form-control" placeholder="example@example.com" aria-describedby="sizing-addon3" required>
+              </div>
+              <label for="basic-url">No.Telp</label>
+              <div class="input-group input-group">
                   <span class="input-group-addon" id="sizing-addon3"></span>
-                  <input type="text" class="form-control" placeholder="08xx xxxx xxxx" aria-describedby="sizing-addon3">
-                  </div>
-                  <label for="basic-url">Alamat</label>
-                  <div class="input-group input-group">
-                    <span class="input-group-addon" id="sizing-addon3"></span>
-                    <input type="text" class="form-control" placeholder="Masukkan Alamat" aria-describedby="sizing-addon3">
-                  </div>
-                  <!-- button -->
-                  <div class="">
-                      <button type="button" class="btn btn-success " data-toggle="" aria-haspopup="true" aria-expanded="false">
-                        Gabung
-                      </button>
-                  </div>
+                  <input type="text" name="hp" class="form-control" placeholder="08xx xxxx xxxx" aria-describedby="sizing-addon3" required>
+              </div>
+              <label for="basic-url">Alamat</label>
+              <div class="input-group input-group">
+                <span class="input-group-addon" id="sizing-addon3"></span>
+                <input type="text" name="alamat" class="form-control" placeholder="Masukkan Alamat" aria-describedby="sizing-addon3" required>
+              </div>
+              <!-- button -->
+              <button class="btn btn-success btn-md">Gabung</button>
+            </form>
           </div>
         </div>
       </div>
@@ -86,13 +84,13 @@
               <div class="col-md-4">
                 <center>
                   <h3>Jumlah Donatur</h3>
-                  <h1>20</h1>
+                  <h1>5</h1>
                 </center>
               </div>
               <div class="col-md-4">
                 <center>
                   <h3>Jumlah Kunjungan</h3>
-                  <h1>20</h1>
+                  <h1>10</h1>
                 </center>
               </div>
             </div>

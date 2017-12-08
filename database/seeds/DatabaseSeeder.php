@@ -13,5 +13,6 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(create_relawan_seed::class);
         $this->call(create_blog_seed::class);
+        $this->call(create_user_seed::class);
     }
 }
