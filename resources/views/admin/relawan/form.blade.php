@@ -12,7 +12,7 @@
     </div>
     <hr>
     <div class="row">
-      <div class="col-md-6 col-md-offset-3">
+      <div class="col-md-4 col-md-offset-4">
         <form action="{{$action}}" method="post">
           <input type="hidden" name="_method" value="{{$method}}">
           <div class="form-group">
@@ -23,8 +23,17 @@
             <label for="hp">Nomor HP</label>
             <input type="text" class="form-control" id="hp" value="{{old('hp')}}">
           </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" id="email" value="{{old('email')}}">
+          </div>
+          <div class="form-group">
+            <label for="alamat">Alamat</label>
+            <input type="text" class="form-control" id="alamat" value="{{old('alamat')}}">
+          </div>
         </form>
       </div>
+      @include('admin.relawan.table')
     </div>
   </div>
 @endsection

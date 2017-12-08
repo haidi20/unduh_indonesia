@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{asset('bootstrap/js/bootstrap.js')}}">
     <link href="{{asset('css/custom.css')}}">
 	<script src="{{asset('boostrap/js/jquery')}}"></script>
-	
+
   </head>
   <body>
     @yield('utama')
