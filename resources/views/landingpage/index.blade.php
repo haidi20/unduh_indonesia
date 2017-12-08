@@ -133,7 +133,7 @@
 				"Sebaik-baiknya manusia ialah dia yang bermanfaat bagi orang banyak". Sudahkah kamu bermanfaat bagi orang lain?   Yuk berdonasi untuk keperluan pendidikan/sarana adik2 di desa/ sekolah di pedalaman Kalimantan timur. Ayo jadikan donasi ini menjadi kebiasaan dalam hidup kita.
 			</div>
 
-			<div class="col-md-3" style="padding-right:0;">
+			<div class="col-md-3">
 				<img src="img/donasi.jpg" align="right">
 			</div>
 

@@ -11,30 +11,30 @@
 .logo
 {
 	width : 100%;
-	
+
 }
 
-nav 
+nav
 {
 	margin-bottom : 0;
-	
+
 }
 
 #berita
 {
-	
+
 	font-size : 72px;
 }
 
 #judul_berita
 {
-	
+
 	font-size : 12px;
 }
 
 #isi_berita
 {
-	
+
 	font-size : 8px;
 }
 
@@ -45,6 +45,6 @@ nav
 
 #ajakan
 {
-	
+
 	font-size : 22px;
 }
