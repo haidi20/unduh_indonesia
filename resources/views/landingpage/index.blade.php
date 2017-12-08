@@ -45,10 +45,6 @@
     </div>
   </div>
 </div>
-
-
-
-=======
 	</nav>
 
 
@@ -63,9 +59,6 @@
 		</div>
 	</section>
 
-
-
->>>>>>> 180ecc8b3680afd64031befe931a23f55c10d85c
   <section class="berita" id="">
 	<div class="container">
 		<div class="row">
@@ -120,11 +113,7 @@
 
   <br><br>
 
-<<<<<<< HEAD
   <section style="background-color:white;" class="pengurus" id="pengurus">
-=======
-  <section class="pengurus" id="pengurus">
->>>>>>> 180ecc8b3680afd64031befe931a23f55c10d85c
 
 	<div class="row">
 		<div class="col-md-12">
@@ -134,15 +123,10 @@
 		</div>
 	</div>
 
-<<<<<<< HEAD
+
 	<br>
 
 	<div style="padding-bottom:10px;"class="row">
-=======
-	<br><br><br>
-
-	<div class="row">
->>>>>>> 180ecc8b3680afd64031befe931a23f55c10d85c
 		<div class="col-md-offset-2 col-md-3 text-center" >
 				<img src="img/berita/berita_1.jpg">
 				<br><br>
@@ -185,11 +169,8 @@
 				"Sebaik-baiknya manusia ialah dia yang bermanfaat bagi orang banyak". Sudahkah kamu bermanfaat bagi orang lain?   Yuk berdonasi untuk keperluan pendidikan/sarana adik2 di desa/ sekolah di pedalaman Kalimantan timur. Ayo jadikan donasi ini menjadi kebiasaan dalam hidup kita.
 			</div>
 
-<<<<<<< HEAD
+
 			<div class="col-md-3" style="padding-right:0;">
-=======
-			<div class="col-md-3">
->>>>>>> 180ecc8b3680afd64031befe931a23f55c10d85c
 				<img src="img/donasi.jpg" align="right">
 			</div>
 
