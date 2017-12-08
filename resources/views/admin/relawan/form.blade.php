@@ -14,23 +14,25 @@
     <div class="row">
       <div class="col-md-4 col-md-offset-4">
         <form action="{{$action}}" method="post">
+          {{ csrf_field() }}
           <input type="hidden" name="_method" value="{{$method}}">
           <div class="form-group">
             <label for="nama">Nama</label>
-            <input type="text" class="form-control" id="nama" value="{{old('nama')}}">
+            <input type="text" class="form-control" name="nama" id="nama" value="{{old('nama')}}">
           </div>
           <div class="form-group">
             <label for="hp">Nomor HP</label>
-            <input type="text" class="form-control" id="hp" value="{{old('hp')}}">
+            <input type="text" class="form-control" name="hp" id="hp" value="{{old('hp')}}">
           </div>
           <div class="form-group">
             <label for="email">Email</label>
-            <input type="text" class="form-control" id="email" value="{{old('email')}}">
+            <input type="text" class="form-control" name="email" id="email" value="{{old('email')}}">
           </div>
           <div class="form-group">
             <label for="alamat">Alamat</label>
-            <input type="text" class="form-control" id="alamat" value="{{old('alamat')}}">
+            <input type="text" class="form-control" name="alamat" id="alamat" value="{{old('alamat')}}">
           </div>
+          <button class="btn btn-success btn-md">Kirim</button>
         </form>
       </div>
       @include('admin.relawan.table')

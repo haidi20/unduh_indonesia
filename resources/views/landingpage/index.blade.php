@@ -72,18 +72,19 @@
 
 		<br>
 
-		<div class="row">
-			<div class="col-md-2 alert-danger">
-				<img src="img/berita/berita_1.jpg">
-			</div>
-			<div class="col-md-offset-1 col-md-9 alert-warning">
-				<h1>Judul berita</h1>
+    @foreach ($blog as $index => $item)
+      <div class="row">
+  			<div class="col-md-2 alert-danger">
+  				<img src="img/berita/berita_1.jpg">
+  			</div>
+  			<div class="col-md-offset-1 col-md-9 alert-warning">
+  				<h1>{{$item->judul}}</h1>
+  				<p>{{$item->isi}}</p>
+  			</div>
+  		</div>
+    @endforeach
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. An hoc usque quaque, aliter in vita? Nam quid possumus facere melius? Huius, Lyco, oratione locuples, rebus ipsis ielunior. Tu enim ista lenius, hic Stoicorum more nos vexat. Duo Reges: constructio interrete. Quantum Aristoxeni ingenium consumptum videmus in musicis? Polemoni et iam ante Aristoteli ea prima visa sunt, quae paulo ante dixi.</p>
-			</div>
-		</div>
-
-		<br>
+		{{-- <br>
 
 		<div class="row">
 			<div class="col-md-2 alert-danger">
@@ -107,7 +108,7 @@
 
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. An hoc usque quaque, aliter in vita? Nam quid possumus facere melius? Huius, Lyco, oratione locuples, rebus ipsis ielunior. Tu enim ista lenius, hic Stoicorum more nos vexat. Duo Reges: constructio interrete. Quantum Aristoxeni ingenium consumptum videmus in musicis? Polemoni et iam ante Aristoteli ea prima visa sunt, quae paulo ante dixi.</p>
 			</div>
-		</div>
+		</div> --}}
 	</div>
   </section>
 

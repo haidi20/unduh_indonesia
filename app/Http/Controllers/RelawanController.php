@@ -37,6 +37,7 @@ class RelawanController extends Controller
             $method = 'PUT';
         }else{
             $action = route('relawan.store');
+            $method = 'POST';
         }
 
         $relawan = Relawan::paginate(10);
@@ -59,17 +60,20 @@ class RelawanController extends Controller
             $relawan = new Relawan;
         }
 
-        $this->validate(request(),[
-            'nama'    => 'required',
-            'email'   => 'required',
-            'hp'      => 'required',
-            'alamat'  => 'required',
-        ]);
+        // $this->validate(request(),[
+        //     'nama'    => 'required',
+        //     'email'   => 'required',
+        //     'hp'      => 'required',
+        //     'alamat'  => 'required',
+        // ]);
 
         $relawan->nama    = request('nama');
         $relawan->email   = request('email');
         $relawan->hp      = request('hp');
         $relawan->alamat  = request('alamat');
+        $relawan->save();
+
+        return redirect()->route('relawan.index');
     }
 
     public function destroy($id){

@@ -25,7 +25,7 @@ class BlogController extends Controller
         $blogFind   = Blog::find($id);
 
         if ($blogFind) {
-            session()->flasInput($blogFind->toArray());
+            session()->flashInput($blogFind->toArray());
             $action = route('blog.update',$id);
             $method = 'PUT';
         }else{
@@ -34,7 +34,7 @@ class BlogController extends Controller
         }
 
         $blog = Blog::paginate(10);
-        return view('admin.blog.index',compact('action','method','blog'));
+        return view('admin.blog.form',compact('action','method','blog'));
     }
 
     public function store(){
@@ -47,16 +47,16 @@ class BlogController extends Controller
 
     public function save($id = null){
         if ($id) {
-            $blog   = Blog::find($id);
+            $blog     = Blog::find($id);
         }else{
-            $blog   = new Blog;
+            $blog     = new Blog;
         }
 
-        $this->validate(request(),[
-            'judul'   => 'required',
-            'isi'     => 'required',
-            // 'foto'    => 'required',
-        ]);
+        // $this->validate(request(),[
+        //     'judul'   => 'required',
+        //     'isi'     => 'required',
+        //     // 'foto'    => 'required',
+        // ]);
 
         $blog->judul  = request('judul');
         $blog->isi    = request('isi');
