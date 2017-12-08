@@ -9,8 +9,8 @@ Route::get('/relawan','RelawanController@tampil')->name('landingpage.relawan');
 
 // admin
   Route::get('/dashboard', 'DashboardController@index')->name('dashboard')->middleware('admin');
-  Route::resource('/admin/relawan','RelawanController');
-  Route::resource('/blog','BlogController');
+  Route::resource('/admin/relawan','RelawanController')->middleware('admin');
+  Route::resource('/blog','BlogController')->middleware('admin');
 
 Auth::routes();
 
