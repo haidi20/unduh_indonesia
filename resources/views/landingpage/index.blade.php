@@ -117,6 +117,7 @@
 
   <section class="visible-lg-block">
 	<div class="container-fluid">
+	 <div id="relawan_a">
 		<div class="row">
 			<div class="col-md-3">
 				<img src="img/donasi.jpg">
@@ -125,9 +126,11 @@
 				<b id="hubungi_kami">Unduh Indonesia</b> ingin mengajak kamu yang ingin berkontribusi untuk mengembangkan potensi anak-anak Sekolah di pedalaman Kalimantan Timur sebagai relawan. Ingin mengisi waktu luang dengan kegiatan bermanfaat dan produktif? tunggu apa lagi? Mari bergabung untuk memberikan pengaruh positif untuk anak-anak dan masyarakat di Kaltim.
 			</div>
 		</div>
+	 </div>	
 
 		<br><br>
-
+		
+	 <div id="donasi_a">
 		<div class="row">
 			<div class="col-md-9 text-justify" id="ajakan">
 				"Sebaik-baiknya manusia ialah dia yang bermanfaat bagi orang banyak". Sudahkah kamu bermanfaat bagi orang lain?   Yuk berdonasi untuk keperluan pendidikan/sarana adik2 di desa/ sekolah di pedalaman Kalimantan timur. Ayo jadikan donasi ini menjadi kebiasaan dalam hidup kita.
@@ -138,9 +141,10 @@
 			</div>
 
 		</div>
+	 </div>	
 
 		<br><br>
-
+	 <div id="kunjungan_a">
 		<div class="row">
 			<div class="col-md-3">
 				<img src="img/donasi.jpg">
@@ -149,11 +153,8 @@
 				Kamu punya informasi seputar sekolah-sekolah pedalaman di kaltim? jangan sungkan untuk berbagi informasi, karna dari informasi sederhana itulah hal-hal besar bisa terjadi.
 			</div>
 		</div>
-
-
+	 </div>
 	</div>
-
-
   </section>
 
   <br><br>
@@ -172,10 +173,10 @@
 			<br><br>
 
 			<div class="row">
-				<div class="col-xs-offset-2 col-xs-1">
+				<div class="col-xs-offset-1 col-xs-1">
 					<label for="nama">Nama</label>
 				</div>
-				<div class="col-xs-offset-1 col-xs-7">
+				<div class="col-xs-offset-1 col-xs-8">
 					<input name="nama" type="text" class="form-control" id="nama" placeholder="Nama">
 				</div>
 			</div>
@@ -183,10 +184,10 @@
 			<br>
 
 			<div class="row">
-				<div class="col-xs-offset-2 col-xs-1">
+				<div class="col-xs-offset-1 col-xs-1">
 					<label for="email">Email</label>
 				</div>
-				<div class="col-xs-offset-1 col-xs-7">
+				<div class="col-xs-offset-1 col-xs-8">
 					<input name="email" type="email" class="form-control" id="email" placeholder="Email">
 				</div>
 			</div>
@@ -194,10 +195,10 @@
 			<br>
 
 			<div class="row">
-				<div class="col-xs-offset-2 col-xs-1">
+				<div class="col-xs-offset-1 col-xs-1">
 					<label for="pesan">Pesan</label>
 				</div>
-				<div class="col-xs-offset-1 col-xs-7">
+				<div class="col-xs-offset-1 col-xs-8">
 					<textarea id="pesan" name="pesan" class="form-control" rows="3" placeholder="Masukkan Pesan Anda"></textarea>
 				</div>
 
@@ -286,8 +287,35 @@
     <footer class="text-center">
 		<b>Copyright @2017 <br> Unduh Indonesia</b>
 	</footer>
+	
+	
+	
+<script>
 
 
+$(window).scroll(function ()
+{
+	var wScroll = $(this).scrollTop();
+	
+	console.log(wScroll);
+	
+	if(wScroll > 1508 && wScroll < 1699)
+	{
+		$("#relawan_a").fadeIn(3000)
+	}
+	
+	if (wScroll > 1700)
+	{
+		$("#donasi_a").fadeIn(3000)
+	}
+	
+	if (wScroll > 1900)
+	{
+		$("#kunjungan_a").fadeIn(3000)
+	}
+	
+})
 
+</script>
 
 @endsection

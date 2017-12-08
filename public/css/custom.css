@@ -48,3 +48,18 @@ nav
 	
 	font-size : 22px;
 }
+
+#relawan_a
+{
+	display : none;
+}
+
+#donasi_a
+{
+	display : none;
+}
+
+#kunjungan_a
+{
+	display : none;
+}
