@@ -2,16 +2,20 @@
 
 @section('tubuh')
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-lg-12 col-lg">
-      <a href="#" class="thumbnail">
-        <img src='../img/1.jpg' alt="Relawan">
-      </a>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 col-lg">
+        <a href="#" class="thumbnail">
+          <div class="w3-content w3-section">
+            <img class="mySlides" src="{{asset('img/1.jpg')}}" style="width:100%">
+            <!--<img class="mySlides" src="{{asset('img/2.jpg')}}" style="width:100%"> -->
+            <img class="mySlides" src="{{asset('img/rico.jpg')}}" style="width:100%">
+          </div>
+          <!-- <img src="{{asset('img/1.jpg')}}" alt="Relawan"> -->
+        </a>
+      </div>
     </div>
   </div>
-</div>
-	</nav>
 
   <section class="berita" id="">
 	<div class="container">
@@ -233,7 +237,22 @@
   </section>
   <!-- akhir footer baru -->
 
+<script>
+var myIndex = 0;
+carousel();
 
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 
 <script>
 $(window).scroll(function ()

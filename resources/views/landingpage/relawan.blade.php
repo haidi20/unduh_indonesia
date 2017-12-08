@@ -7,7 +7,7 @@
         <a href="#" class="thumbnail">
           <div class="w3-content w3-section">
             <img class="mySlides" src="{{asset('img/1.jpg')}}" style="width:100%">
-            <img class="mySlides" src="{{asset('img/2.jpg')}}" style="width:100%">
+            <!--<img class="mySlides" src="{{asset('img/2.jpg')}}" style="width:100%"> -->
             <img class="mySlides" src="{{asset('img/rico.jpg')}}" style="width:100%">
           </div>
           <!-- <img src="{{asset('img/1.jpg')}}" alt="Relawan"> -->
