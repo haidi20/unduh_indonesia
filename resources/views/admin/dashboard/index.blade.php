@@ -7,5 +7,6 @@
         <h2>Selamat Datang Admin</h2>
       </div>
     </div>
+    <hr>
   </div>
 @endsection
