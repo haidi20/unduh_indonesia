@@ -40,7 +40,7 @@ class RelawanController extends Controller
             $method = 'POST';
         }
 
-        $relawan = Relawan::paginate(10);
+        $relawan    = Relawan::paginate(10);
 
         return view('admin.relawan.form',compact('action','method','relawan'));
     }
