@@ -20,6 +20,9 @@ body{
 .panel-body{
   border-radius: 0px;
 }
+table{
+  background-color: white;
+}
 
 .logo
 {

@@ -19,7 +19,7 @@
 			<div class="col-md-12">
 				<div class="">
 					<span id="berita">Berita</span>
-					<hr width="200px" align="left">
+					<!-- <hr width="200px" align="left"> -->
 				</div>
 			</div>
 		</div>
@@ -67,9 +67,9 @@
 
   <br><br>
 
-  <section style="background-color:white;" class="pengurus" id="pengurus">
-
   <section class="pengurus" id="pengurus">
+
+  <section style="background-color:white;" class="pengurus" id="pengurus">
 
 	<div class="row">
 		<div class="col-md-12">
@@ -219,7 +219,7 @@
   <br><br><br>
 
 
-  <section>
+  <section style="background-color:white">
 	<div class="container">
 
 		<div class="row">
@@ -227,8 +227,6 @@
 				&nbsp;&nbsp;&nbsp;&nbsp; <span id="hubungi_kami">Hubungi Kami</span>
 			</div>
 		</div>
-
-		<br>
 
 		<div class="row">
 			<div class="col-md-6">
@@ -243,9 +241,9 @@
 							<td align="center" colspan="3"> <hr> </td>
 						</tr>
 						<tr>
-							<td align="center"><b>+62 0541 12345</b></td>
-							<td align="center"> <b>admin@unduhindonesia.org</b></td>
-							<td align="center"><b> Jalan Ciptomangkusumo <br>Samarinda, Kalimantan Timur </b></td>
+							<td align="center"><p>+62 0541 12345</p></td>
+							<td align="center"><p>admin@unduhindonesia.org</p></td>
+							<td align="center"><p> Jl Ciptomangkusumo <br>Samarinda, Kalimantan Timur </p></td>
 						</tr>
 					</table>
 			</div>
@@ -264,8 +262,8 @@
 							<td align="center" colspan="3"> <hr> </td>
 						</tr>
 						<tr>
-							<td align="center"><b>UnduhIndonesia</b></td>
-							<td align="center"> <b>UnduhIndonesia</b></td>
+							<td align="center"><p>UnduhIndonesia</p></td>
+							<td align="center"> <p>UnduhIndonesia</p></td>
 
 						</tr>
 					</table>
@@ -277,12 +275,6 @@
 
   </section>
 
-
-  <br><br><br>
-
-    <footer class="text-center">
-		<b>Copyright @2017 <br> Unduh Indonesia</b>
-	</footer>
 
 
 
