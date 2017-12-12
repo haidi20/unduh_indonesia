@@ -80,10 +80,10 @@ return [
 
         'heroku' => [
             'driver'   => 'pgsql',
-            'host'     => parse_url(getenv("DATABASE_URL"))["host"],
-            'database' => substr(parse_url(getenv("DATABASE_URL"))["path"], 1),
-            'username' => parse_url(getenv("DATABASE_URL"))["user"],
-            'password' => parse_url(getenv("DATABASE_URL"))["pass"],
+            'host'     => parse_url(getenv("ec2-54-235-193-84.compute-1.amazonaws.com"))["host"],
+            'database' => substr(parse_url(getenv("postgres://qmajzcufbjhcpe:c99490f63b8684d1b034547e4f543231638a7e7d1e2851dda4f293b22452eecf@ec2-54-235-193-84.compute-1.amazonaws.com:5432/d73u9mg220k6gr"))["path"], 1),
+            'username' => parse_url(getenv("qmajzcufbjhcpe"))["user"],
+            'password' => parse_url(getenv("c99490f63b8684d1b034547e4f543231638a7e7d1e2851dda4f293b22452eecf"))["pass"],
             'charset'  => 'utf8',
             'prefix'   => '',
             'schema'   => 'public',
